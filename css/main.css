@@ -1,22 +1,44 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+body {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.jumbotron {
+    background: url('../img/noisy_grid.png');
+}
+.jumbotron h1 {
+    font-size: 36px;
+    color: rgb(67, 95, 123);
+}
+#movies-lookup .btn {
+    margin-top: 20px;
+}
+.error-query {
+    padding: 20px;
+}
+#results h2 {
+    margin-bottom: 20px;
+}
+#results .col-md-3 {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+.row.movie-data {
+    margin: 10px auto;
+}
+#results ul {
+    font-size: 18px;
+}
+#DB_logo {
+    margin-top: 15px;
+}
+p.disclaimer {
+    font-size: 12px;
+    font-family: "Arial";
+}
