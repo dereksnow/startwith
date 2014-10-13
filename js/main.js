@@ -34,7 +34,7 @@ $(document).ready(function() {
                         if (posterPath) {
                             imageURL = "<img src='http://image.tmdb.org/t/p/w185" + posterPath + "' height='278' width='185'>";
                         } else {
-                            imageURL = "<img src='../img/no_image.png' height='278' width='185'>";
+                            imageURL = "<img src='img/no_image.png' height='278' width='185'>";
                         }
                         if (releaseDate) {
                             releaseYear = releaseDate.split("-")[0];
